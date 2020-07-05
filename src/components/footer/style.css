@@ -1,0 +1,21 @@
+div.footerContainer{
+    width: 100%;
+    height: 75px;
+    background:  var(--primary-color);
+    margin-top: 50px ;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 10%;
+}
+
+p.textFooter{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 25px;
+}
+
+img.logoImgBranco{
+    width: 20%;
+    padding: 20px;
+}

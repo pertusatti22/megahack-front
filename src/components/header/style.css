@@ -1,0 +1,25 @@
+header.headerContainer{
+    background-color: var(--primary-color);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+ul.menu{
+    display: flex;
+    list-style-type: none;
+    margin-right: 100px;
+}
+
+a.headerText{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+img.logoImg{
+    width: 10%;
+    margin-left: 5%;
+}

@@ -1,0 +1,73 @@
+img.bannerImg{
+    width: 60%;
+    margin-left: 20%;
+}
+
+h2.title{
+    color: var(--primary-color);
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.selectContainer{
+    width: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    margin-left: 20%;
+    margin-bottom: 40px;
+}
+
+.div-select {
+    width:250px;
+    overflow:hidden;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.div-select2 {
+    width:250px;
+    overflow:hidden;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+  
+select {
+      background:  var(--primary-color);
+      width: 270px;
+      height:50px;  
+      font-size:16px;
+      font-weight: bold ;
+      padding:13px 20px 13px 12px;
+      color:#fff;
+}
+
+button.iconContainer{
+    width: 200px;
+    height: 47px;
+    margin-top: 10px;
+    color: var(--primary-color);
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    background:var(--secundary-color);
+    border: 2px solid var(--primary-color);
+    border-radius: 8px;
+}
+
+button.iconContainer:hover{
+    background:var(--primary-color);
+    color: white;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+.leaflet-container {
+    width: 40%;
+    height: 350px;
+    border-radius: 8px;
+    margin-bottom: 24px;
+    margin-left: 29%;
+    margin-top: 20px;
+  }
